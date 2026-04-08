@@ -1,0 +1,17 @@
+{
+  "name": "int_banco01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": " "
+  },
+  "keywords": [],
+  "author": "Carlos",
+  "license": "MIT",
+  "description": "Integração com banco de dados",
+  "dependencies": {
+    "pg": "^8.20.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.8"
+  }
+}
