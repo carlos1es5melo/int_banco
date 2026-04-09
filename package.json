@@ -10,6 +10,8 @@
   "license": "MIT",
   "description": "Integração com banco de dados",
   "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "pg": "^8.20.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.8"
