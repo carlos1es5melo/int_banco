@@ -3,7 +3,7 @@ const app = express()
 const cors = require('cors')
 
 const PORT = 3000
-const hostname = 'localhost' // 127.0.0.1
+const hostname = '0.0.0.0' // 127.0.0.1
 
 const conn = require('./db/conn')
 const clieteController = require('./controller/client.controller')
@@ -15,7 +15,7 @@ app.use(cors())
 // ------------------------------------------
 
 app.post('/cliente', clieteController.cadastrar)
-app.post('/clientes', clieteController.listar)
+app.get('/clientes', clieteController.listar)
 
 // ------------------------------------------
 conn.sync()
